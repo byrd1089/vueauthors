@@ -1,20 +1,22 @@
 <template>
   <div id="app" class="container">
-    <br />
-    <navbar></navbar>
-    <br />
     <router-view></router-view>
     <hr />
-    <h4> This is an amazing application ! </h4>
+    <h4> Vue Authors.</h4>
+    <p>This small demonstration application is my take on how to do CRUD actions combining:</p>
+    <ul>
+      <li>vue</li>
+      <li>vue-router</li>
+      <li>vue-router-sync</li>
+      <li>vuex</li>
+      <li>vuelidate</li>
+    </ul>
+    <p>It was created using the <a href="https://github.com/ssouron/vuestart">Vue Start</a> template </p>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar'
-
-export default {
-  components: { Navbar }
-}
+export default {}
 </script>
 
 <style lang="sass">
@@ -30,6 +32,8 @@ export default {
   @import '../node_modules/font-awesome/scss/font-awesome.scss'
 
   //some styling adaptations
+  body
+    margin: 20px
   h1
     color: #42b983
   p

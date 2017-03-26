@@ -60,12 +60,12 @@
 <style lang="sass" scoped>
 
     .panel-heading h3
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      line-height: normal;
-      width: 75%;
-      padding-top: 8px;
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      line-height: normal
+      width: 75%
+      padding-top: 8px
       color: #42b983
       margin: 0
 
